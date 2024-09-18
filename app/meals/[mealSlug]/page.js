@@ -27,8 +27,8 @@ export default function MealsDetailPage(props) {
       <header className={classes.header}>
         <div className={classes.image}>
           <Image
-            // src={`https://supratim-nextjs-demo-users-image.s3.ap-south-1.amazonaws.com/${meal.image}`} Aws problem.
-            src={`/assets/${meal.image}`}
+            src={`https://supratim-nextjs-demo-users-image.s3.ap-south-1.amazonaws.com/${meal.image}`} 
+            // src={`/assets/${meal.image}`}
             alt={meal.title}
             fill
           />
